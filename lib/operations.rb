@@ -7,6 +7,7 @@ def unsafe?(speed)
 	  then answer = unsafe?(35)
 	  expect(answer).to eq(true)
   end 
+  
 
 
 
@@ -15,9 +16,7 @@ def not_safe?(speed)
 
 end
 
-if 'speed is between 40 and 60'
-  then answer = unsafe?(50)
-  expect(answer),to eq(false)
+
   end 
 end 
 	
